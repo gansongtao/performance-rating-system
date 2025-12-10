@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context reloadable="true">
+    <Resource name="jdbc/openGauss"
+              type="javax.sql.DataSource"
+              maxTotal="4"
+              maxIdle="2"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://192.168.200.129:15400/mydb"
+              username="dbuser"
+              password="Dbpassword!"
+              maxWaitMillis="5000"/>
+</Context>
